@@ -120,7 +120,7 @@ jobs:
           cache-to: type=gha, mode=max
 
   buildpypgstac:
-    name: Build and push base pyrust
+    name: Build and push pypgstac
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
